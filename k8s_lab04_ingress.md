@@ -24,7 +24,7 @@ Giờ hãy cùng bắt đầu nhé!
 * **ArgoCD:**
     * Repo: `sre`
     * Project: `sre`
-    * Applications: Đang quản lý `k8s-dashboard` và `goldpinger`.
+    * Applications: Đã triển khai được application lên argocd.
 
 ---
 
@@ -164,7 +164,7 @@ Chúng ta sẽ điều hướng traffic từ `demoapp.misa.vn/debezium-ui` tới
 - namespace: demoapp
 
 #### 4.1.1. Cấu hình Upstream và Route
-Bạn cần cập nhật file cấu hình `values.yaml` để khai báo dịch vụ đích (`debezium-ui`) là một **Upstream** và định nghĩa một **Route* mới.
+Bạn cần cập nhật file cấu hình `values.yaml` để khai báo dịch vụ đích (`debezium-ui`) là một **Upstream** và định nghĩa một **Route** mới.
 
 **Bước 1: Cập nhật `values.yaml`**
 
