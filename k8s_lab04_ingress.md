@@ -42,6 +42,7 @@ Giờ hãy cùng bắt đầu nhé!
 ### 3.0. Tài nguyên cho bài lab
 - File share: `\\10.100.17.107\Share\lab04\charts`
 - Copy các chart có trong thư mục `charts` lên máy k8s master `/home/ubuntu/lab04/`
+- Nguồn chart nginx-ingress: `https://github.com/nginx/kubernetes-ingress/tree/v2.3.0/deployments/helm-chart`
 
 ### 3.1. Kết nối helm repo `k8s-lab`
 
